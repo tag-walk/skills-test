@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'GillSansMTStd-Medium';
+    src: url(https://s3.eu-west-3.amazonaws.com/tagwalk-assets/font/gill-sans/309507_1_0.woff) format("woff"), url(https://s3.eu-west-3.amazonaws.com/tagwalk-assets/font/gill-sans/309507_1_0.woff2) format("woff2"), url(https://s3.eu-west-3.amazonaws.com/tagwalk-assets/font/gill-sans/309507_1_0.ttf) format("truetype"), url(https://s3.eu-west-3.amazonaws.com/tagwalk-assets/font/gill-sans/309507_1_0.eot) format("embedded-opentype");
+}
+
+html, body {
+    font-family: "GillSansMTStd-Medium", sans-serif !important;
+}
+
+main {
+    width: 100%;
+    min-height: 400px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Insert CSS code here */
