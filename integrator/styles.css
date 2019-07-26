@@ -20,3 +20,56 @@ h1 {
 }
 
 /* Insert CSS code here */
+
+* {
+	transition: all 0.5s ease-out;
+}
+
+.section {
+	height: 400px;
+    width: 50%;
+    margin-bottom: 30px;
+	position: relative;
+}
+
+.section01,
+.section02 {
+	float: left;
+}
+
+.main-picture,
+.secondary-pictures {
+	float: left;
+}
+
+.main-picture {
+	height: 400px;
+}
+
+.secondary-pictures {
+	margin: 0 0 0 5px;
+}
+
+.secondary-pictures-top {
+	margin-bottom: 5px; 
+}
+
+.section:hover img {
+	opacity: 0.5
+}
+
+.event-and-date-container {
+	height: 80px;
+	width: 200px;
+	padding: 5px;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	margin-left: -100px;
+	background-color: orange;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
